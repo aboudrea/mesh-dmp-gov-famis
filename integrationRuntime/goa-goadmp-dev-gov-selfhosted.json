@@ -1,0 +1,12 @@
+{
+	"name": "goa-goadmp-dev-gov-selfhosted",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/772ce188-fa13-4fb8-b804-953b17e3dc53/resourcegroups/goa-goadmp-dev-rg-gov/providers/Microsoft.DataFactory/factories/goa-goadmp-dev-gov-shared-df/integrationruntimes/goa-goadmp-dev-gov-selfhosted",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}
