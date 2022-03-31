@@ -1,0 +1,12 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "goa-goadmp-dev-gov-famis-df"
+		},
+		"goa-goadmp-dev-gov-selfhosted_properties_typeProperties_linkedInfo_resourceId": {
+			"value": "/subscriptions/772ce188-fa13-4fb8-b804-953b17e3dc53/resourcegroups/goa-goadmp-dev-rg-gov/providers/Microsoft.DataFactory/factories/goa-goadmp-dev-gov-shared-df/integrationruntimes/goa-goadmp-dev-gov-selfhosted"
+		}
+	}
+}
