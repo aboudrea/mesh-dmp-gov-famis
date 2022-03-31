@@ -1,0 +1,32 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Web1",
+				"type": "WebActivity",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"url": "https://prod-03.canadacentral.logic.azure.com:443/workflows/1065d04b753943f29cb1cce8e44f9f31/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=h36B2r12_Iezb-UXnM-40SpHR0KnieTK784KMRbhweU",
+					"method": "POST",
+					"body": {
+						"Date": "2022-03-30",
+						"Zulu": "12Z",
+						"To": "andrew.boudreau@microsoft.com; hubert.duan@microsoft.com; Adrian.Besoi@gov.ab.ca; Alpesh.Ghori@gov.ab.ca",
+						"Admin": "andrew.boudreau@microsoft.com",
+						"Subject": "DEV - Current Forecasts - "
+					}
+				}
+			}
+		],
+		"annotations": []
+	}
+}
