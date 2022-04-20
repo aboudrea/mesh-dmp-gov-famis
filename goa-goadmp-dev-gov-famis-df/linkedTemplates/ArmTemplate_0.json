@@ -39,11 +39,17 @@
 							"method": "POST",
 							"headers": {},
 							"body": {
-								"Date": "2022-03-30",
-								"Zulu": "00Z",
-								"To": "andrew.boudreau@microsoft.com; hubert.duan@microsoft.com; Adrian.Besoi@gov.ab.ca; Alpesh.Ghori@gov.ab.ca",
-								"Admin": "andrew.boudreau@microsoft.com",
-								"Subject": "DEV - Current Forecasts - "
+								"DataFactoryName": "goa-goadmp-dev-env-wwxf-df",
+								"PipelineRunId": "548c7431-5ea6-4a20-8bc8-a209e40915be",
+								"PipelineId": "9",
+								"ConfigId": "209",
+								"PipelineName": "PL_AzDataBricks",
+								"TriggerTime": "2022-04-20 12:13 PM",
+								"OutputMessage ": "test",
+								"EmailTo": "andrew.boudreau@microsoft.com",
+								"EmailBcc": "",
+								"EmailCc": "",
+								"EmailImportance": "High"
 							}
 						}
 					}
