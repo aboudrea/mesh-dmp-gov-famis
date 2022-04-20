@@ -1,0 +1,32 @@
+{
+	"name": "ADF Logic App Post DEV",
+	"properties": {
+		"activities": [
+			{
+				"name": "Web1",
+				"type": "WebActivity",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"url": "https://prod-04.canadacentral.logic.azure.com:443/workflows/e6d42bfad00f44059af206c76cd91b9d/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=onIevU0yz8mx7qvosUpog4l0D6FsBhbJkW-8BWbJOzE",
+					"method": "POST",
+					"body": {
+						"Date": "2022-03-30",
+						"Zulu": "00Z",
+						"To": "andrew.boudreau@microsoft.com; hubert.duan@microsoft.com; Adrian.Besoi@gov.ab.ca; Alpesh.Ghori@gov.ab.ca",
+						"Admin": "andrew.boudreau@microsoft.com",
+						"Subject": "DEV - Current Forecasts - "
+					}
+				}
+			}
+		],
+		"annotations": []
+	}
+}
